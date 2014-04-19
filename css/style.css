@@ -1,0 +1,20 @@
+body{
+    background-color: lightsteelblue;
+}
+body:before {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    content: "";
+    height: 35px;
+    left: 0;
+    position: fixed;
+    top: -35px;
+    width: 100%;
+    z-index: 100;
+}
+#top{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    content:"";
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
